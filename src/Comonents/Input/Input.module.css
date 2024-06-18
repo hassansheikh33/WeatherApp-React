@@ -1,0 +1,21 @@
+.form input {
+    width: 50%;
+    font-size: 1.1rem;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    margin-top: 15px;
+}
+
+.form button {
+    text-align: center;
+    padding: 5px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.form button:hover {
+    background-color: yellow;
+    color: black;
+}

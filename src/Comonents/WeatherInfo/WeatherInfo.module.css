@@ -1,0 +1,58 @@
+.forecastBtn {
+    background-color: transparent;
+    /* border: 1px solid rgb(80, 80, 199); */
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-bottom: 12px;
+    font-size: 1.1rem;
+}
+
+.forecastBtn:hover,
+.forecastBtn:active {
+    color: white;
+    background-color: rgb(30, 80, 199);
+}
+
+.sectionFor h2 {
+    margin-bottom: 40px;
+}
+
+.currentSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.daysContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.forecastDay {
+    width: 18%;
+    min-height: 15vh;
+    margin: 20px;
+}
+
+.forecastDay * {
+    margin: 2px;
+}
+
+.forecastDay p {
+    font-size: 0.8rem;
+}
+
+.sunny {
+    color: gold
+}
+
+.cloudy {
+    color: rgb(94, 94, 94);
+}
+
+.rainy {
+    color: rgb(15, 129, 206);
+}
