@@ -9,7 +9,7 @@ export default function useFetch() {
       setIsLoading(true);
       setError(null);
       const response = await fetch(
-        `https://api.weatherapi.com/v1/${check}.json?key=d0efeca2d39e4df7b2f60107240606${url}`
+        `https://api.weatherapi.com/v1/${check}.json?key=e72b8a43abe84491a4394027240807${url}`
       );
       if (response.status === 400) {
         throw new Error("City/Country not Found ! Try another one");
